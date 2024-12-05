@@ -2,7 +2,7 @@
 FROM eclipse-temurin:17-jdk-alpine
 
 # Expose the port on which the Spring Boot app will run inside the container
-EXPOSE 8080
+EXPOSE 8083
 
 # Set the working directory inside the container
 ENV APP_HOME /usr/src/app
